@@ -1,0 +1,49 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+    @apply bg-gradient-to-r from-blue-200 to-blue-50; /* Gradient background */
+}
+
+.bg-airport {
+    position:relative;
+    background-image: url('https://i.ibb.co/0CRSgyD/f5efeeaee624.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+body {
+    @apply bg-gradient-to-r from-blue-200 to-blue-50; /* Gradient background */
+}
+
+h1 {
+    @apply text-4xl font-bold text-center text-gray-800 mb-6;
+}
+
+.table-header {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white;
+}
+
+.table-row:hover {
+    @apply bg-gray-100;
+}
+/* Custom Global Styles */
+body {
+    @apply bg-gradient-to-r from-blue-200 to-blue-50; /* Gradient background */
+}
+
+h1 {
+    @apply text-4xl font-bold text-center text-gray-800 mb-6;
+}
+
+.table-header {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 text-white;
+}
+
+.table-row:hover {
+    @apply bg-gray-100;
+}
